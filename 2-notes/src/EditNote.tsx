@@ -19,8 +19,7 @@ const EditNote=({ onSubmit, onAddTag, availableTags }: EditNoteProps)=> {
         tags={note.tags}
         onSubmit={data => onSubmit(note.id, data)}
         onAddTag={onAddTag}
-        availableTags={availableTags}
-      />
+        availableTags={availableTags}/>
     </>
   )
 }
