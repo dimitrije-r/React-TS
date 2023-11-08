@@ -7,3 +7,4 @@ Packages used for 2-notes:<hr>
 <br> bootstrap
 <br> uuid (with <i><b>--save-dev @types/uuid</b></i> to remove the error)
 <br> react-markdown
+<br> react-markdown
