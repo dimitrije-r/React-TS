@@ -9,11 +9,8 @@ const useLocalStorage = <T>(key: string, initialValue: T | (() => T)) => {
       } else {
         return initialValue
       }
-    } else {
-      return JSON.parse(jsonValue)
-    }
-  })
-
+    } 
+      return JSON.parse(jsonValue)})
   useEffect(() => {
     localStorage.setItem(key, JSON.stringify(value))
   }, [value, key])

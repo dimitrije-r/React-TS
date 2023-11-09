@@ -48,3 +48,4 @@ const Note=({ onDelete }: NoteProps) =>{
     </>
   )
 }
+export default Note;
