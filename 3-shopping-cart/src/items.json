@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Comic Book",
+      "price": 10.99,
+      "imgUrl": "/images/comicbook.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Computer",
+      "price": 1199,
+      "imgUrl": "/images/computer.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Apple",
+      "price": 1.05,
+      "imgUrl": "/images/apple.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Motorcycle",
+      "price": 11000,
+      "imgUrl": "/images/motorcycle.jpg"
+    },
+    {
+      "id": 5,
+      "name": "TV",
+      "price": 899.99,
+      "imgUrl": "/images/tv.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Jacket",
+      "price": 99,
+      "imgUrl": "/images/jacket.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Shoes",
+      "price": 40,
+      "imgUrl": "/images/shoes.jpg"
+    },
+    {
+      "id": 8,
+      "name" :"Snowboard",
+      "price": 449,
+      "imgUrl": "/images/snowboard.jpg"
+    }
+  ]
