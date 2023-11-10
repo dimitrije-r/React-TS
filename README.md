@@ -10,4 +10,5 @@ Packages used for <b>2-notes</b>:<hr>
 
 <hr>Packages used for <b>3-shopping-cart</b>:<hr>
  react-router-dom
+<br> bootstrap
 <br> react-bootstrap
