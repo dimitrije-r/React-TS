@@ -1,4 +1,4 @@
-# This is a WIP<br>
+# WIP<br>
 <i>React+TypeScript</i><hr>
 Packages used for <b>2-notes</b>:<hr>
  react-router-dom
