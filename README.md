@@ -1,5 +1,5 @@
-# WIP<br>
-<i>React+TypeScript</i><hr>
+# WIP
+<br><i>React+TypeScript</i><hr>
 Packages used for <b>2-notes</b>:<hr>
  react-router-dom
 <br> react-select
