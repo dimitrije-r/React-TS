@@ -7,11 +7,11 @@ type HangmanWordProps = {
 const HangmanWord = ({
     guessedLetters,
     wordToGuess,
-    reveal = false,
+    reveal = false
   }: HangmanWordProps) => {
   return (
     <div style={{
-        display: "flex",gap: ".25em",fontSize: "6rem",fontWeight: "bold",textTransform: "uppercase",fontFamily: "monospace",}}>
+        display: "flex",gap: ".25em",fontSize: "6rem",fontWeight: "bold",textTransform: "uppercase",fontFamily: "monospace"}}>
       {wordToGuess.split("").map((letter, index) => (
         <span style={{ borderBottom: ".1em solid black" }} key={index}>
           <span
@@ -21,7 +21,7 @@ const HangmanWord = ({
                   ? "visible"
                   : "hidden",
               color:
-                !guessedLetters.includes(letter) && reveal ? "red" : "black",}}>
+                !guessedLetters.includes(letter) && reveal ? "red" : "black"}}>
             {letter}
           </span></span>))}
     </div>

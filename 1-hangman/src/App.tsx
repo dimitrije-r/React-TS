@@ -1,11 +1,10 @@
-import { useCallback, useEffect, useState } from "react"
-import HangmanDrawing from "./HangmanDrawing"
-import HangmanWord from "./HangmanWord"
-import Keyboard from "./Keyboard"
-import words from "./words.json"
+import { useCallback, useEffect, useState } from "react";
+import HangmanDrawing from "./HangmanDrawing";
+import HangmanWord from "./HangmanWord";
+import Keyboard from "./Keyboard";
+import words from "./words.json";
 
 const getWord=()=>words[Math.floor(Math.random()*words.length)]
-
 
 const App = () => {
   const [wordToGuess, setWordToGuess] = useState(getWord)
@@ -19,8 +18,6 @@ const App = () => {
     if(guessedLetters.includes(letter)||isLoser||isWinner)return
     setGuessedLetters(currentLetters=>[...currentLetters,letter])
   },[guessedLetters,isLoser,isWinner])
-
-  
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -55,7 +52,6 @@ const App = () => {
     }
   }, [])
   
-
   return (
     <div
       style={{
@@ -64,30 +60,23 @@ const App = () => {
         flexDirection: "column",
         gap: "2rem",
         margin: "0 auto",
-        alignItems: "center",
-      }}
-    >
+        alignItems: "center"
+      }}>
       <div style={{ fontSize: "2rem", textAlign: "center" }}>
         {isWinner && "Winner! - Refresh to try again"}
         {isLoser && "Nice Try - Refresh to try again"}
       </div>
       <HangmanDrawing numberOfGuesses={inCorrectLetters.length} />
-      <HangmanWord
-        reveal={isLoser}
-        guessedLetters={guessedLetters}
-        wordToGuess={wordToGuess}
-      />
+      <HangmanWord reveal={isLoser} guessedLetters={guessedLetters} wordToGuess={wordToGuess}/>
       <div style={{ alignSelf: "stretch" }}>
         <Keyboard
           disabled={isWinner || isLoser}
           activeLetters={guessedLetters.filter(letter =>
-            wordToGuess.includes(letter)
-          )}
+            wordToGuess.includes(letter))}
           inActiveLetters={inCorrectLetters}
-          addGuessedLetter={addGuessedLetter}
-        />
+          addGuessedLetter={addGuessedLetter}/>
       </div>
     </div>
   )
 }
-export default App
+export default App;

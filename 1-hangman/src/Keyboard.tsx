@@ -26,7 +26,7 @@ const KEYS = [
   "w",
   "x",
   "y",
-  "z",
+  "z"
 ]
 
 type KeyboardProps = {
@@ -41,7 +41,7 @@ const Keyboard = ({
     activeLetters,
     inActiveLetters,
     addGuessedLetter,
-    disabled = false,
+    disabled = false
   }: KeyboardProps) => {
 
   return (
@@ -49,7 +49,7 @@ const Keyboard = ({
       style={{
         display: "grid",
         gridTemplateColumns: "repeat(auto-fit, minmax(75px, 1fr))",
-        gap: ".5rem",}}>
+        gap: ".5rem"}}>
       {KEYS.map(key => {
         const isActive = activeLetters.includes(key)
         const isInactive = inActiveLetters.includes(key)
