@@ -1,5 +1,9 @@
-# WIP
 <br><i>React+TypeScript</i><hr>
+
+https://1-hangman.netlify.app/
+<br>https://2-notes.netlify.app/
+<br>https://3-shopping-cart.netlify.app/
+<br>
 Packages used for <b>2-notes</b>:<hr>
  react-router-dom
 <br> react-select
@@ -12,3 +16,7 @@ Packages used for <b>2-notes</b>:<hr>
  react-router-dom
 <br> bootstrap
 <br> react-bootstrap
+
+<hr>Packages used for <b>4-quiz</b>:<hr>
+
+<br> styled-components (with <i><b>@types/styled-components</b></i> to get the types)
