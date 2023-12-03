@@ -1,4 +1,4 @@
-<b><i>React+TypeScript</i></b><hr>
+<h2>React + TypeScript</h2><br>
 
 https://1-hangman.netlify.app/
 <br>https://2-notes.netlify.app/
