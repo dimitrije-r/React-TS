@@ -19,4 +19,4 @@ Packages used for <b>2-notes</b>:<hr>
 
 <hr>Packages used for <b>4-quiz</b>:<hr>
 
-<br> styled-components (with <i><b>@types/styled-components</b></i> to get the types)
+styled-components (with <i><b>@types/styled-components</b></i> to get the types)
