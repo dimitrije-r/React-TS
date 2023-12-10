@@ -2,7 +2,9 @@
 
 https://1-hangman.netlify.app/
 <br>https://2-notes.netlify.app/
-<br>https://3-shopping-cart.netlify.app/
+<br>https://4-quiz.netlify.app/
+<br>https://5-yt-homepage-clone.netlify.app/
+<br>
 <hr>
 Packages used for <b>2-notes</b>:<hr>
  react-router-dom
