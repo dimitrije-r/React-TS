@@ -1,6 +1,22 @@
 <div align="center"><h2>React + TypeScript</h2><br> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwindcss" width="40" height="40"/> <img src="https://upload.vectorlogo.zone/logos/getbootstrap/images/987f8f6c-263a-47b1-a85d-853cfca215d9.svg" alt="bootstrap" width="40" height="40"/></div><br>
 
 <hr>
+<div><h3>6-fit-app:</h3>
+ <ul>
+ <li>Live: --</li>
+ <li>
+ Packages used: 
+ <ol>
+   <li>heroicons/react</li>
+   <li>framer-motion</li>
+   <li>react-anchor-link-smooth-scroll</li>
+   <li>react-hook-form</li>
+  </ol>
+ </li>
+ </ul>
+ </div>
+ <hr>
+
 <div><h3>5-youtube-copy:</h3>
  <ul>
  <li>Live: https://5-yt-homepage-clone.netlify.app/</li>
@@ -62,4 +78,3 @@
  </li>
  </ul>
  </div>
-<hr>
