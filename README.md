@@ -9,6 +9,7 @@
    <li>react-redux</li>
    <li>reduxjs/toolkit</li>
    <li>date-fns</li>
+   <li>nanoid</li>
   </ol>
  </li>
  </ul>
