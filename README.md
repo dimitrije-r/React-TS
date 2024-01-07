@@ -1,5 +1,18 @@
-<div align="center"><h2>React + TypeScript</h2><br> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwindcss" width="40" height="40"/> <img src="https://upload.vectorlogo.zone/logos/getbootstrap/images/987f8f6c-263a-47b1-a85d-853cfca215d9.svg" alt="bootstrap" width="40" height="40"/></div><br>
+<div align="center"><h2>React + TypeScript</h2><br> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwindcss" width="40" height="40"/> <img src="https://upload.vectorlogo.zone/logos/getbootstrap/images/987f8f6c-263a-47b1-a85d-853cfca215d9.svg" alt="bootstrap" width="40" height="40"/><img src="https://brandeps.com/logo-download/R/Redux-logo-vector-01.svg" alt="redux" width="40" height="40"/></div><br>
 
+<div><h3>7-posts:</h3>
+ <ul>
+ <li>Live: https://7-posts.netlify.app/</li>
+ <li>
+ Packages used: 
+ <ol>
+   <li>react-redux</li>
+   <li>reduxjs/toolkit</li>
+   <li>date-fns</li>
+  </ol>
+ </li>
+ </ul>
+ </div>
 <hr>
 <div><h3>6-fit-app:</h3>
  <ul>
