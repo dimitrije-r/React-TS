@@ -10,8 +10,8 @@ export const buttonStyles = cva(["transition-colors"], {
       dark: [
         "bg-secondary-dark",
         "hover:bg-secondary-dark-hover",
-        "text-secondary",
-      ],
+        "text-secondary"
+      ]
     },
     size: {
       default: [" rounded", "p-2"],
@@ -28,7 +28,7 @@ export const buttonStyles = cva(["transition-colors"], {
   },
   defaultVariants: {
     variant: "default",
-    size: "default",
+    size: "default"
   }
 })
 

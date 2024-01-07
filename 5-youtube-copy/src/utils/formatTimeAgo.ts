@@ -1,5 +1,5 @@
 const formatter = new Intl.RelativeTimeFormat(undefined, {
-  numeric: "always",
+  numeric: "always"
 })
 
 const DIVISIONS: { amount: number; name: Intl.RelativeTimeFormatUnit }[] = [
@@ -9,7 +9,7 @@ const DIVISIONS: { amount: number; name: Intl.RelativeTimeFormatUnit }[] = [
   { amount: 7, name: "days" },
   { amount: 4.34524, name: "weeks" },
   { amount: 12, name: "months" },
-  { amount: Number.POSITIVE_INFINITY, name: "years" },
+  { amount: Number.POSITIVE_INFINITY, name: "years" }
 ]
 
 export const formatTimeAgo=(date: Date)=> {
