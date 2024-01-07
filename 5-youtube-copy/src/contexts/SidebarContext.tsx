@@ -1,10 +1,4 @@
-import {
-  ReactNode,
-  createContext,
-  useContext,
-  useEffect,
-  useState,
-} from "react"
+import {ReactNode, createContext, useContext, useEffect, useState} from "react"
 
 type SidebarProviderProps = {
   children: ReactNode
@@ -62,13 +56,7 @@ export const SidebarProvider=({ children }: SidebarProviderProps) => {
   }
 
   return (
-    <SidebarContext.Provider
-      value={{
-        isLargeOpen,
-        isSmallOpen,
-        toggle,
-        close,
-      }}>
+    <SidebarContext.Provider value={{isLargeOpen,isSmallOpen,toggle,close}}>
       {children}
     </SidebarContext.Provider>
   )
