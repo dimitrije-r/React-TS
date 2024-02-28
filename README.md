@@ -4,7 +4,7 @@
  <ul>
  <li>Live: https://7-posts.netlify.app/</li>
  <li>
- Packages/libraries used: 
+ Dependencies/libraries: 
  <ol>
    <li>react-redux</li>
    <li>reduxjs/toolkit</li>
@@ -19,7 +19,7 @@
  <ul>
  <li>Live: -----</li>
  <li>
- Packages/libraries used: 
+ Dependencies/libraries: 
  <ol>
    <li>heroicons/react</li>
    <li>framer-motion</li>
@@ -35,7 +35,7 @@
  <ul>
  <li>Live: https://5-yt-homepage-clone.netlify.app/</li>
  <li>
- Packages/libraries used: tailwindcss
+ Dependencies/libraries: tailwindcss
  </li>
  </ul>
  </div>
@@ -45,7 +45,7 @@
  <ul>
  <li>Live: https://4-quiz.netlify.app/</li>
  <li>
- Packages/libraries used: styled-components
+ Dependencies/libraries: styled-components
  </li>
  </ul>
  </div>
@@ -55,7 +55,7 @@
  <ul>
  <li>Live: https://3-shopping-cart.netlify.app/</li>
  <li>
- Packages/libraries used:
+ Dependencies/libraries:
   <ol>
    <li>react-router-dom</li>
    <li>bootstrap</li>
@@ -70,7 +70,7 @@
  <ul>
  <li>Live: https://2-notes.netlify.app/</li>
  <li>
- Packages/libraries used:
+ Dependencies/libraries:
   <ol>
    <li>react-router-dom</li>
    <li>react-markdown</li>
@@ -88,7 +88,7 @@
  <ul>
  <li>Live: https://1-hangman.netlify.app/</li>
  <li>
- Packages/libraries used: none
+ Dependencies/libraries: none
  </li>
  </ul>
  </div>
